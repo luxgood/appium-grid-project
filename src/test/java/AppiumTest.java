@@ -21,7 +21,7 @@ public class AppiumTest {
         desiredCapabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-        URL url = new URL("http://192.168.8.123:4723/wd/hub");
+        URL url = new URL("http://192.168.8.123:4444/wd/hub");
         AppiumDriver driver = new AppiumDriver(url, desiredCapabilities);
 
 // Navigate to the page and interact with the elements on the guinea-pig page using id.
